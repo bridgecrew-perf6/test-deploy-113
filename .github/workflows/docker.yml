@@ -19,8 +19,6 @@ jobs:
         with:
           java-version: 12.0
 
-      - name: Build with Gradle
-        run: ./gradlew build
 
       - name: Build Docker Image
         id: buildAndPushImage
