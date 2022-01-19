@@ -24,7 +24,7 @@ jobs:
         id: buildAndPushImage
         uses: Abhishek-070/Dockerhub-Build-Push@v1.0
         with:
-          registry_url: 'hub.docker.com/'
+          registry_url: 'https://hub.docker.com/repository/docker/vinayk7686'
           repository_name: 'django_app'
           user_name: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
